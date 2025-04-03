@@ -1,0 +1,33 @@
+// Variables
+$primary-color: #42b983;
+$secondary-color: #2c3e50;
+
+// Global Styles
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $secondary-color;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+} 
